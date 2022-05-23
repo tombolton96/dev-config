@@ -9,7 +9,7 @@ return {
     {key="d", mods="SUPER|SHIFT",
       action=wezterm.action{SplitVertical={domain="CurrentPaneDomain"}}},
     -- This will close current pane
-    {key="w", mods="CMD", action=wezterm.action{CloseCurrentPane={confirm=true}}},
+    {key="w", mods="SUPER", action=wezterm.action{CloseCurrentPane={confirm=true}}},
     -- Moving focus between panes in current tab
     {key = "LeftArrow", mods="SUPER|ALT",
       action=wezterm.action{ActivatePaneDirection="Left"}},
