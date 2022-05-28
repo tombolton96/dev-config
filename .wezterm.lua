@@ -63,6 +63,8 @@ return {
 
     color_scheme = "Tokyo Night",
 
+    font = wezterm.font("JetBrains Mono", {bold=true}),
+
     color_schemes = {
         ["Tokyo Night"] = {
             foreground = "#c0caf5",
