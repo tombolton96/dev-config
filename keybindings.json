@@ -1,0 +1,17 @@
+[
+    {
+        "key": "cmd+d",
+        "command": "workbench.action.splitEditor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "workbench.action.splitEditorOrthogonal",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.view.debug",
+        "when": "editorTextFocus"
+    }
+]
