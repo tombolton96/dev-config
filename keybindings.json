@@ -13,5 +13,15 @@
         "key": "shift+cmd+r",
         "command": "workbench.view.debug",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+up",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
     }
 ]
